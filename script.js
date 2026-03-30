@@ -250,3 +250,21 @@ window.addEventListener('load', () => {
     setTimeout(() => el.classList.add('visible'), 200 + i * 150);
   });
 });
+
+/* ------- Botón WhatsApp dinámico ------- */
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.pc-btn-whatsapp').forEach(btn => {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      const producto = this.dataset.producto || 'la plataforma';
+      const precio = this.dataset.precio || '';
+      const telefono = '573015518564';
+
+      const mensaje = `Hola, quiero comprar ${producto}. Vi que está disponible desde ${precio}. ¿Me das más información, por favor?`;
+      const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+
+      window.location.href = url;
+    });
+  });
+});

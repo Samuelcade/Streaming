@@ -845,3 +845,29 @@ img { max-width: 100%; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--accent2); }
+
+.platform-card {
+  position: relative;
+  z-index: 1;
+}
+
+.platform-card * {
+  position: relative;
+  z-index: 2;
+}
+
+.pc-glow {
+  z-index: 0;
+  pointer-events: none;
+}
+
+.pc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  z-index: 50;
+  cursor: pointer;
+  pointer-events: auto;
+}
