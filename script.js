@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const producto = this.dataset.producto || 'la plataforma';
       const precio = this.dataset.precio || '';
-      const telefono = '573015518564';
+      const telefono = '573249475086';
 
       const mensaje = `Hola, quiero comprar ${producto}. Vi que está disponible desde ${precio}. ¿Me das más información, por favor?`;
       const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;

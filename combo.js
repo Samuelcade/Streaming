@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const comboTotal = document.getElementById("combo-total");
   const comboWhatsapp = document.getElementById("combo-whatsapp");
 
-  const numeroWhatsapp = "573002766594";
+  const numeroWhatsapp = "573249475086";
 
   function formatoPrecio(valor) {
     return "$" + valor.toLocaleString("es-CO");
