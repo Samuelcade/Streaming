@@ -1,5 +1,5 @@
 /* =============================================
-   StreamVault — Main Script
+   Kivoo Streaming — Main Script
    ============================================= */
 
 /* ------- Navbar scroll effect ------- */
