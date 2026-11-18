@@ -1,6 +1,6 @@
 export const platforms = [
-  { name: 'Netflix', logo: 'netflix', color: '#E50914', price: 13000, description: 'Series, películas y documentales en calidad 4K.', combo: true, popular: true },
-  { name: 'Disney+', logo: 'disney', color: '#113CCF', price: 10000, description: 'Marvel, Star Wars, Pixar y contenido original exclusivo.', combo: true },
+  { name: 'Netflix', logo: 'netflix', color: '#E50914', price: 15000, description: 'Series, películas y documentales en calidad 4K.', combo: true, popular: true },
+  { name: 'Disney+ Premium', logo: 'disney', color: '#113CCF', price: 12000, description: 'Marvel, Star Wars, Pixar y contenido original exclusivo.', combo: true },
   { name: 'HBO Max', logo: 'hbo', color: '#9B59B6', price: 9000, description: 'Estrenos exclusivos, series de culto y cine independiente.', combo: true },
   { name: 'Prime Video', logo: 'prime', color: '#00A8E1', price: 9000, description: 'Producciones Amazon Originals y contenido de estreno global.', combo: true },
   { name: 'Apple TV+', logo: 'apple', color: '#ffffff', price: 9000, description: 'Originals premiados y producciones de alta calidad Apple.' },
