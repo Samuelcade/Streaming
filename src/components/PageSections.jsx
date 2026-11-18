@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { platforms } from '../data/platforms.js';
 
 const benefits = [
   ['⚡', 'Activación rápida', 'Tu acceso listo en minutos desde que confirmas. Sin esperas innecesarias.'],
@@ -27,7 +28,7 @@ export function Benefits() {
 }
 
 export function Trust() {
-  const stats = [['1000', '+', 'Clientes activos'], ['11', '', 'Plataformas disponibles'], ['5', '★', 'Valoración promedio'], ['3', 'min', 'Tiempo de activación']];
+  const stats = [['1000', '+', 'Clientes activos'], [platforms.length, '', 'Plataformas disponibles'], ['5', '★', 'Valoración promedio'], ['3', 'min', 'Tiempo de activación']];
   return <section className="trust" id="confianza"><div className="trust-bg-glow" /><div className="container"><div className="trust-inner">{stats.map(([number, suffix, label]) => <div className="trust-stat" key={label}><span className="stat-num">{number}</span><span className="stat-plus">{suffix}</span><span className="stat-label">{label}</span></div>)}</div></div></section>;
 }
 

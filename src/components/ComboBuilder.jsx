@@ -8,7 +8,7 @@ export default function ComboBuilder() {
   const subtotal = chosen.reduce((sum, platform) => sum + (platform.comboPrice ?? platform.price), 0);
   const discount = chosen.length >= 4 ? 0.15 : chosen.length === 3 ? 0.10 : chosen.length === 2 ? 0.05 : 0;
   const total = Math.round(subtotal * (1 - discount));
-  const message = `Hola, quiero armar este combo:\n\n${chosen.map((platform) => platform.name).join('\n')}\n\nTotal del combo: ${formatPrice(total)}`;
+  const message = `Hola, quiero armar este combo:\n\n${chosen.map((platform) => platform.purchaseName || platform.name).join('\n')}\n\nTotal del combo: ${formatPrice(total)}`;
 
   function toggle(name) {
     setSelected((current) => current.includes(name) ? current.filter((item) => item !== name) : [...current, name]);

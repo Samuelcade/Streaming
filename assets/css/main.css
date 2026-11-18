@@ -378,6 +378,8 @@ img { max-width: 100%; }
 .netflix::after { content:'N'; font-family:'Outfit',sans-serif; font-weight:900; color:white; font-size:22px; }
 .disney { background: #113CCF; border-radius: 6px; display:flex; align-items:center; justify-content:center; }
 .disney::after { content:'D+'; font-family:'Outfit',sans-serif; font-weight:900; color:white; font-size:13px; }
+.chatgpt { background: #10A37F; border-radius: 6px; display:flex; align-items:center; justify-content:center; }
+.chatgpt::after { content:'AI'; font-family:'Outfit',sans-serif; font-weight:900; color:white; font-size:14px; }
 .spotify { background: #1DB954; border-radius: 6px; display:flex; align-items:center; justify-content:center; }
 .spotify::after { content:'♪'; font-weight:900; color:white; font-size:20px; }
 .hbo { background: #9B59B6; border-radius: 6px; display:flex; align-items:center; justify-content:center; }
