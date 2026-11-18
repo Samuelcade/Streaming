@@ -1,4 +1,6 @@
 /* ===== RESET & BASE ===== */
+.platform-wordmark { font-family: 'Outfit', sans-serif; font-weight: 900; font-size: 20px; }
+.combo-hint { color: var(--text-muted); }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
